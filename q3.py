@@ -11,4 +11,4 @@ def wordCount(t):
                     word_dict[word].append(line_number)
     return word_dict
 
-print(wordCount("test.txt"))
+print(wordCount("q3_test.txt"))

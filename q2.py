@@ -16,7 +16,7 @@ def graphSnowfall(filename):
     # Make data:
     x_labels = ['0-10cm', '11-20cm', '21-30cm', '31-40cm', '41-50cm']
     x = np.arange(len(x_labels))
-    y = fileopen("numbers.txt") #Using the closure function here
+    y = fileopen(filename) #Using the closure function here
 
     # Plot
     fig, ax = plt.subplots()
@@ -30,7 +30,7 @@ def graphSnowfall(filename):
 
     plt.show()
 
-graphSnowfall("numbers.txt")
+graphSnowfall("q2_numbers.txt")
 
 #Version 1 for help
 #def fileopen(filename):
